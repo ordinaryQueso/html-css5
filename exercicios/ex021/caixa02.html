@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(226, 216, 216);
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(145, 140, 140);
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.411);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: rgb(175, 181, 187);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.411);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: white;
+            padding: 7px;
+            margin: 10px;
+        }
+        article > aside{
+            background-color: rgb(168, 199, 230);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Pirituba</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate rerum asperiores, sapiente nobis, tempore ex, dicta quos veniam excepturi dolorem pariatur. Ea est atque eos unde delectus commodi nam ex.</p>
+                <aside>
+                    <p>Artigo escrito por Eduardo França</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Eduardo França</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
